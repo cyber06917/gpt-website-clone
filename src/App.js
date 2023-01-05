@@ -1,9 +1,15 @@
 import React from 'react'
+import { Article, Brand, CTA, Feature, Navbar } from './components/index';
 
 export const App = () => {
   return (
     <div>
-        <h1>app is working</h1>
+        <Article/>
+        <Brand/>
+        <CTA/>
+        <Feature/>
+        <Navbar/>
+
     </div>
   )
 }
