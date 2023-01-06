@@ -1,14 +1,20 @@
 import React from 'react'
-import { Article, Brand, CTA, Feature, Navbar } from './components/index';
+import './app.css'
+import { Article, Brand, CTA, Feature, Navbar } from './components';
+import {Header} from './containers';
 
 export const App = () => {
   return (
-    <div>
+    <div className='App'>
+      <div className=''>
+        <Navbar/>
+        <Header/>
+      </div>
         <Article/>
         <Brand/>
         <CTA/>
         <Feature/>
-        <Navbar/>
+       
 
     </div>
   )
