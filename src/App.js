@@ -6,7 +6,7 @@ import {Header} from './containers';
 export const App = () => {
   return (
     <div className='App'>
-      <div className=''>
+      <div className= 'App__gradient-bg'>
         <Navbar/>
         <Header/>
       </div>
@@ -14,8 +14,6 @@ export const App = () => {
         <Brand/>
         <CTA/>
         <Feature/>
-       
-
     </div>
   )
 }
