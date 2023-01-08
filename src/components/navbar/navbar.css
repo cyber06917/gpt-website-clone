@@ -1,4 +1,53 @@
-.nav{
+/* main navbar */
+.gpt-navbar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
+    padding: 2rem 8rem;
+
+}
+
+/* navbar container for "logo" & "link" */
+.gpt-navbar__link{
+    outline: 1px solid red;
+    display: flex;
+    align-items: center;
+}
+
+/* gpt logo style */
+.gpt-navbar__link__logo{
+    margin-right: 2rem;
+}
+
+.gpt-navbar__link__logo img{
+    width: 65px;
+    height: 65px;
+}
+
+
+/* navbar link style */
+.gpt-navbar__link__container{
+    justify-content: flex-start;
+    display: flex;
+    list-style: none;
+}
+
+/* navbar link color */
+.gpt-navbar__link__container a{
+    color: white;
+    font-family: var(--font-family);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0rem 2rem;
+
+    /* it solved the link word wrapping problem */
+    white-space: nowrap;
+}
+
+
+
+/* navbar button style */
+.gpt-navbar__button{
+    background: blue;
+    
 }
