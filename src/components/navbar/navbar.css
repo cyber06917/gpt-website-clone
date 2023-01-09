@@ -3,7 +3,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 2rem 8rem;
+    padding-top: 2.5rem;
+    
+    /* to control the max width of navbar in very big screen */
+    max-width: var(--screen-max-width);
+    margin: 0 auto;
 
 }
 
@@ -13,7 +17,7 @@
 .gpt-navbar__link__container a {
     font-family: var(--font-family);
     font-weight: var(--font-bold);
-    font-size: 1rem;
+    font-size: 1.1rem;
     color: white;
 }
 
