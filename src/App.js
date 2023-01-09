@@ -5,8 +5,8 @@ import {Header} from './containers';
 
 export const App = () => {
   return (
-    <div className='App'>
-      <div className= 'App__gradient-bg'>
+    <div className='app'>
+      <div className='app__gradient-bg'>
         <Navbar/>
         <Header/>
       </div>

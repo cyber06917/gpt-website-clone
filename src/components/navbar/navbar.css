@@ -1,5 +1,5 @@
 /* main navbar */
-.gpt-navbar{
+.gpt-navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -7,47 +7,68 @@
 
 }
 
+/* navbar global font style */
+.gpt-navbar__login button,
+.gpt-navbar__login p,
+.gpt-navbar__link__container a {
+    font-family: var(--font-family);
+    font-weight: var(--font-bold);
+    font-size: 1rem;
+    color: white;
+}
+
 /* navbar container for "logo" & "link" */
-.gpt-navbar__link{
-    outline: 1px solid red;
+.gpt-navbar__link {
     display: flex;
     align-items: center;
 }
 
 /* gpt logo style */
-.gpt-navbar__link__logo{
+.gpt-navbar__link__logo {
     margin-right: 2rem;
 }
 
-.gpt-navbar__link__logo img{
+.gpt-navbar__link__logo img {
     width: 65px;
     height: 65px;
 }
 
 
 /* navbar link style */
-.gpt-navbar__link__container{
+.gpt-navbar__link__container {
     justify-content: flex-start;
     display: flex;
     list-style: none;
 }
 
 /* navbar link color */
-.gpt-navbar__link__container a{
-    color: white;
-    font-family: var(--font-family);
-    font-size: 1rem;
-    font-weight: 400;
-    margin: 0rem 2rem;
+.gpt-navbar__link__container a {
+    margin: 0rem 1rem;
+
+    /* capitalize the 1st character of word */
+    text-transform: capitalize;
 
     /* it solved the link word wrapping problem */
     white-space: nowrap;
 }
 
+/* navbar login style */
+.gpt-navbar__login {
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+}
 
 
-/* navbar button style */
-.gpt-navbar__button{
-    background: blue;
-    
+/* navbar signup button style */
+.gpt-navbar__login button {
+    padding: 0.5em 2em;
+    background-color: #ff4820;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.gpt-navbar__login p{
+    margin: 0rem 1.5rem;
 }

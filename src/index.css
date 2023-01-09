@@ -3,6 +3,12 @@
 :root{
     --font-family: 'Mukta', sans-serif;
 
+    /* font bold property */
+    --font-bold: 500;
+    --font-bold2: 600;
+    --font-bold3: 800;
+
+
     --color-bg: #040C18;
     --color-footer: #031B34;
     --color-blog: #042C54;

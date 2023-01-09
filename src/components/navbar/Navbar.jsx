@@ -17,7 +17,7 @@ function Navbar() {
           <li><a href="Library">Library</a></li>
         </ul>
       </div>
-      <div className='gpt-navbar__button'>
+      <div className='gpt-navbar__login'>
         <p>
           sign in
         </p>

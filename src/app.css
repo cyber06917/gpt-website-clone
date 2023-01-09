@@ -11,9 +11,27 @@ body{
     color: var(--color-text);   
 }
 
+/* global style for link */
 a{
     text-decoration: unset;
 }
 
+/* gradient style for HEADER & NAVBAR */
+.app__gradient-bg{
+   /* ff 3.6+ */
+   background:-moz-radial-gradient(circle at 1% 4%, rgba(1, 60, 127, 1) 0%, rgba(4, 12, 24, 1) 68%);
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 1% 4%, rgba(1, 60, 127, 1) 0%, rgba(4, 12, 24, 1) 68%);
+
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 1% 4%, rgba(1, 60, 127, 1) 0%, rgba(4, 12, 24, 1) 68%);
+
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 1% 4%, rgba(1, 60, 127, 1) 0%, rgba(4, 12, 24, 1) 68%);
+
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 1% 4%, rgba(1, 60, 127, 1) 0%, rgba(4, 12, 24, 1) 68%);
+}
 
 
