@@ -1,0 +1,30 @@
+.feature{
+    width: 100%;
+    height: auto;
+    position: absolute;
+    font-family: var(--font-family);
+
+
+}
+/* heading style */
+
+/* creating a line above header */
+.feature h1::before{
+    content: "";
+    background-color: red;
+    display: block;
+    position: relative;
+    bottom: 0.2em;
+    width:1.4em;
+    height: 0.12em;
+    border-radius: 1em;
+}
+
+.feature h1{
+    margin-bottom: 1em;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+}
+
+/* paragraph style */

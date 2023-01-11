@@ -3,8 +3,6 @@
     margin: 0 auto;
     display: flex;
     flex: 1;
-    outline: 1px solid red;
-    
 }
 
 .header__ai-image{
@@ -17,7 +15,25 @@
     height: auto;
 }
 
+/* left side of the content of HEADER section */
 .header__left{
     width:100%;
-    outline: 1px solid red;
+    outline: 1px solid green;
+}
+ 
+.header__left h1{
+    font-size: var(--font-h1);
+    line-height: var(--h1-line-height);
+    font-family: var(--font-family);
+    font-weight: var(--font-bold2);
+}
+
+/* paragraph style */
+.header__left p{
+    margin-top: 1em;
+    font-family: var(--font-family);
+    color: #81afdd;
+    font-weight: 100;
+    font-size: 1.3em;
+    line-height: 1.4em;
 }

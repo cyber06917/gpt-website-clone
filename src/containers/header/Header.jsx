@@ -7,7 +7,7 @@ function Header() {
   return (
     <div className='header'>
       <div className='header__left'>
-        <h1>
+        <h1 className='text-gradient'>
           Let's Build Something amazing with GPT-3 OpenAI
         </h1>
         <p>

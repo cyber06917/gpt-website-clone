@@ -8,6 +8,11 @@
     --font-bold2: 600;
     --font-bold3: 800;
 
+    /* font size property */
+    --font-h1:3.5rem;
+    --h1-line-height: 4rem;
+
+    /* main layout max width */
     --screen-max-width: 70rem;
 
     --color-bg: #040C18;
@@ -15,4 +20,34 @@
     --color-blog: #042C54;
     --color-text: #81AFDD;
     --color-subtext: #FF8A71;
+}
+
+/* global text gradient style */
+
+.text-gradient{
+
+    /* gradient color */
+
+     /* ff 3.6+ */
+     background:-moz-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(240, 149, 110, 1) 100%); 
+
+     /* safari 5.1+,chrome 10+ */
+     background:-webkit-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(240, 149, 110, 1) 100%);
+ 
+     /* opera 11.10+ */
+     background:-o-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(240, 149, 110, 1) 100%);
+ 
+     /* ie 6-9 */
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#F0956E', endColorstr='#AE67FA', GradientType=0 );
+ 
+     /* ie 10+ */
+     background:-ms-linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(240, 149, 110, 1) 100%);
+ 
+     /* global 94%+ browsers support */
+     background:linear-gradient(90deg, rgba(174, 103, 250, 1) 0%, rgba(240, 149, 110, 1) 100%);
+
+    /* sticking the gradient color to image */
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
 }
